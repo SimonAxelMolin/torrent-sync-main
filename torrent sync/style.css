@@ -1,0 +1,128 @@
+@font-face {
+    font-family: francois_oneregular;
+    src: url(FrancoisOne-Regular.ttf);
+}
+
+div{
+    font-family: francois_oneregular;
+}
+
+header
+{
+    font-family: francois_oneregular;
+    z-index: 10000000;
+height: 75px;
+width: 100%;
+background-color: #FFADF0;
+margin: 0px;
+}
+
+.body{
+    margin: 0px;
+}
+
+.box1{
+
+        color: black;
+        background-color: white;
+         height: 50px;
+         width: 100px;
+        padding-left: 15px;
+        margin-top: 15px;
+        margin-left: 50px;
+        float: left;
+
+ }
+
+
+.box2{
+    color: black;
+    background-color: white;
+     height: 50px;
+     width: 100px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-right: 50px;
+    float: right;
+}
+
+footer
+{
+    bottom: 0;
+    left: 0;
+    background-color: #FFADF0;
+    height: 200px;
+    width: 100%;
+    color: black;
+}
+
+.foot{
+    color: black;
+    font-size: 25px;
+    margin-left: 10%;
+    padding-top: 1%;
+}
+
+h1{
+    float:left;
+}
+.messageInformation{
+    margin-left: 300px;
+}
+
+.MainBar{
+    margin: 300px 0 0 0;
+    display:flex;
+    justify-content: center;
+}
+.SubBar{
+    margin: 0 0 300px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.LinkText:hover
+{
+    background-color: #FDEBF7;
+}
+.bar2{
+    margin: 30px 20px;
+    border: #FFADF0 solid 8px;
+    border-radius: 100px;
+    height: 70px;
+    width: 400px;
+    float: left;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    background-color: #FFFFFF;
+    transition: background-color 0.1s;
+}
+.bar2:hover
+{
+    background-color: #FDEBF7
+}
+
+.LinkText{
+    margin: 20px 100px;
+    border: #FFADF0 solid 10px;
+    border-radius: 100px;
+    outline: none;
+    height: 80px;
+    width: 1000px;
+    font-size: 36px;
+    color: grey;
+    text-align: center;
+    line-height: 80px;
+    margin: 0;
+    resize: none;
+    transition: background-color 0.1s;
+}
+
+.ButtonText{
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    line-height: 60px;
+    margin: 0;
+}
